@@ -13,7 +13,7 @@
   }
 
   function getMugSrc() {
-    return `https://urbandictionary.store/render/preview/mug/back.jpg?logo-variant=dark&word&bg=000000&fg=000000&fill=${backgroundColor
+    return `https://urbandictionary.store/render/preview/mug/back.webp?logo-variant=dark&word&bg=000000&fg=000000&fill=${backgroundColor
       .slice(1)
       .toUpperCase()}&meaning=${text}`;
   }
